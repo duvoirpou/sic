@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Adonis </title>
+  <script src="https://cdn.jsdelivr.net/npm/unpoly@3.7.3/unpoly.min.js"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/unpoly@3.7.3/unpoly.min.css">
+  @viteReactRefresh()
+  @vite([
+    'resources/css/app.css',
+    'resources/css/bootstrap.min.css',
+    'resources/css/font-awesome.min.css',
+    'resources/css/magnific-popup.css',
+    'resources/css/animate.min.css',
+    'resources/css/slick.css',
+    'resources/css/default.css',
+    'resources/css/style.css',
+    'resources/js/app.js',
+    'resources/js/vendor/modernizr-3.6.0.min.js',
+    'resources/js/vendor/jquery-1.12.4.min.js',
+    'resources/js/bootstrap.min.js',
+    'resources/js/popper.min.js',
+    'resources/js/jquery.appear.min.js',
+    'resources/js/slick.min.js',
+    'resources/js/wow.js',
+    'resources/js/isotope.pkgd.min.js',
+    'resources/js/imagesloaded.pkgd.min.js',
+    'resources/js/jquery.magnific-popup.min.js',
+    'resources/js/main.js',
+  ])
+
+</head>
+<body>
+  @include('pages/partials/_menu')
+
+<!--====== PAGE TITLE  PART START ======-->
+
+<div class="page-title-area">
+  <div class="section__bg"></div>
+  <div class="container">
+      <div class="row">
+          <div class="col-lg-12">
+              <div class="page-title-content text-center">
+                  <h3 class="title">Contact Us</h3>
+                  <nav aria-label="breadcrumb">
+                      <ol class="breadcrumb">
+                          <li class="breadcrumb-item"><a href="#">Home</a></li>
+                          <li class="breadcrumb-item active" aria-current="page">Contact Us</li>
+                      </ol>
+                  </nav>
+                  <div class="scroll-to-down">
+                      <a href="#portfolio-scroll"><i class="fal fa-arrow-down"></i></a>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+</div>
+
+<!--====== PAGE TITLE  PART ENDS ======-->
+
+<!--====== CONTACT US PART START ======-->
+
+<section class="contact-us-area contact-us-page">
+  <div class="section__bg"></div>
+  <div class="container">
+      <div class="row justify-content-center">
+          <div class="col-lg-10">
+              <div class="contact-us-box">
+                  <h3 class="title">Get in Touch</h3>
+                  <p>Give us a call or drop by anytime, we endeavour to <br> answer all enquiries within 24 hours.</p>
+                  <form action="#">
+                      <div class="row no-gutters">
+                          <div class="col-lg-6">
+                              <div class="input-box mt-10">
+                                  <input type="text" placeholder="Your name">
+                              </div>
+                          </div>
+                          <div class="col-lg-6">
+                              <div class="input-box mt-10">
+                                  <input type="email" placeholder="Email address">
+                              </div>
+                          </div>
+                          <div class="col-lg-6">
+                              <div class="input-box mt-10">
+                                  <input type="text" placeholder="number">
+                              </div>
+                          </div>
+                          <div class="col-lg-6">
+                              <div class="input-box mt-10">
+                                  <input type="text" placeholder="Location">
+                              </div>
+                          </div>
+                          <div class="col-lg-12">
+                              <div class="input-box mt-10">
+                                  <textarea name="#" id="#" cols="30" rows="10" placeholder="write message"></textarea>
+                              </div>
+                              <ul class="checkbox_common checkbox_style5">
+                                  <li>
+                                      <input type="checkbox" name="checkbox5" id="checkbox13">
+                                      <label for="checkbox13"><span></span>I agree to the data protection regulations</label>
+                                  </li>
+                              </ul>
+                              <div class="input-box">
+                                  <button class="main-btn " type="submit">Submit</button>
+                              </div>
+                          </div>
+                      </div>
+                  </form>
+              </div>
+          </div>
+      </div>
+  </div>
+</section>
+
+<!--====== CONTACT US PART ENDS ======-->
+
+<!--====== CONTACT US PART ENDS ======-->
+
+<div class="contact-map">
+  <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d14612.962398285066!2d90.45967325!3d23.703100600000003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sbd!4v1595237498018!5m2!1sen!2sbd" width="600" height="450" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+</div>
+
+<!--====== CONTACT US PART ENDS ======-->
+
+<!--====== SUBSCRIBE PART START ======-->
+
+<div class="subscribe-area subscribe-9-area subscribe-13-area">
+  <div class="container">
+      <div class="row align-items-center">
+          <div class="col-lg-6">
+              <div class="subscribe-item">
+                  <h3 class="title">Love Eating? Like offer?</h3>
+                  <span>Since ancient times, wine has been perceive part of our culture and a symbol of good life role of wine has centuries.</span>
+              </div>
+          </div>
+          <div class="col-lg-6">
+              <div class="subscribe-form subscribe-9-form subscribe-13-form">
+                  <input type="email" placeholder="Your email address">
+                  <button type="button" class="main-btn">SUBSCRIBE</button>
+              </div>
+          </div>
+      </div>
+  </div>
+</div>
+
+<!--====== SUBSCRIBE PART ENDS ======-->
+
+@include('pages/partials/_footer')
+</body>
+</html>

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <script src="https://cdn.jsdelivr.net/npm/unpoly@3.7.3/unpoly.min.js"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/unpoly@3.7.3/unpoly.min.css">
+  @viteReactRefresh()
+  @vite([
+    'resources/css/app.css',
+    'resources/css/bootstrap.min.css',
+    'resources/css/font-awesome.min.css',
+    'resources/css/magnific-popup.css',
+    'resources/css/animate.min.css',
+    'resources/css/slick.css',
+    'resources/css/default.css',
+    'resources/css/style.css',
+    'resources/js/app.js',
+    'resources/js/vendor/modernizr-3.6.0.min.js',
+    'resources/js/vendor/jquery-1.12.4.min.js',
+    'resources/js/bootstrap.min.js',
+    'resources/js/popper.min.js',
+    'resources/js/jquery.appear.min.js',
+    'resources/js/slick.min.js',
+    'resources/js/wow.js',
+    'resources/js/isotope.pkgd.min.js',
+    'resources/js/imagesloaded.pkgd.min.js',
+    'resources/js/jquery.magnific-popup.min.js',
+    'resources/js/main.js',
+  ])
+</head>
+<body>
+  <div>
+    @yield('content')
+  </div>
+</body>
+</html>
